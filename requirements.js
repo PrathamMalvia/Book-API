@@ -14,6 +14,8 @@
 
 // what are all APIs that we need...
 
+// -----------------------------------------------------------------------------------------------
+
 // Books
 // we need an API
 
@@ -31,8 +33,10 @@
 // Update/add new author for a book✅
 
 // DELETE
-// Delete a book
-// Delete a author
+// Delete a book✅
+// Delete an author from a book✅
+
+// -----------------------------------------------------------------------------------------------
 
 // Authors
 // we need an API
@@ -49,7 +53,9 @@
 // Update author name✅
 
 // DELETE
-// Delete an author
+// Delete an author✅
+
+// -----------------------------------------------------------------------------------------------
 
 // Publications
 // we need an API
@@ -63,8 +69,9 @@
 // Add new publication✅
 
 // PUT
-// Update the publication name✅
-// Update/add books to publications
+// Update the publication name using id✅
+// Update/add books to publications✅
 
 // DELETE
-// Delete publications
+// Delete a book form publication✅
+// Delete publication✅
