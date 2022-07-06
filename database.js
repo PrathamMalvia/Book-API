@@ -5,8 +5,8 @@ const books = [
         pubDate: "2022-07-07",
         language: "en",
         numPage: "250",
-        author: [1, 2],
-        publications: [1],
+        author: [1, 2, 3],
+        publications: [1, 2, 3],
         category: ["tech", "programming", "education", "thriller"]
     },
 ];
@@ -23,7 +23,7 @@ const author = [
         books: ["456Space"],
     },
     {
-        id: 1,
+        id: 3,
         name: "Jeff Bezos",
         books: ["123Book", "789Secret"],
     },
@@ -32,17 +32,17 @@ const author = [
 const publication = [
     {
         id: 1,
-        name: "readx",
+        name: "Jaico",
         books: ["123Book", "456Space"],
     },
     {
         id: 2,
-        name: "writex",
+        name: "Westland",
         books: ["789Hello", "123World"],
     },
     {
         id: 3,
-        name: "spacex",
+        name: "Roli",
         books: ["99Secret"],
     }
 ];
