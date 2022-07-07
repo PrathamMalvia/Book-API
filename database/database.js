@@ -4,7 +4,7 @@ const books = [
         title: "Getting started with MERN",
         pubDate: "2022-07-07",
         language: "en",
-        numPage: "250",
+        numPage: 250,
         author: [1, 2, 3],
         publications: 1,
         category: ["tech", "programming", "education", "thriller"]
@@ -14,7 +14,7 @@ const books = [
         title: "Getting started with Python",
         pubDate: "2022-07-07",
         language: "en",
-        numPage: "200",
+        numPage: 200,
         author: [1, 2, 3],
         publications: 1,
         category: ["tech", "programming", "education"]
