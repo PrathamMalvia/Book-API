@@ -63,10 +63,14 @@ Parameter       NONE
 Methods         POST
 */
 Router.post("/add", (req, res) => {
-    const { newPublication } = req.body;
+    try {
+        const { newPublication } = req.body;
 
-    PublicationModel.create(newPublication);
-    return res.json({ message: "publication was added !!!" });
+        PublicationModel.create(newPublication);
+        return res.json({ message: "publication was added !!!" });
+    } catch (error) {
+        res.json({ error: error.message });
+    }
 });
 
 /*
